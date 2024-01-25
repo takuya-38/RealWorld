@@ -12,6 +12,11 @@ gem "rack-cors"
 gem 'jwt'
 
 group :development do
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-minitest', require: false
+  gem 'rubocop-packaging', require: false
   gem "web-console",         "4.2.0"
   gem "solargraph",          "0.48.0"
   gem "irb",                 "1.10.0"
