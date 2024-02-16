@@ -4,6 +4,11 @@ module Api
     before_action :jwt_authenticate, only: %i[create update destroy]
     before_action :set_article, only: %i[show update destroy]
 
+    def index
+      articles = Article.all
+      render json: { articles: articles }
+    end
+
     def show
       if @article
         render_article(@article)
