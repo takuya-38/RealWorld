@@ -64,6 +64,13 @@ RealWorld の API のうち、次のエンドポイントを実装してくだ�
 
 お気に入り(`favorite`)も実装してください。
 
+# デプロイ
+フロントエンド：https://nextjs-realworld-iota.vercel.app/ <br>
+バックエンド  ：https://mystudysite/api/
+
+# アーキテクチャ
+![realworld-architecture](https://github.com/takuya-38/RealWorld/assets/128199416/356af767-d798-43f2-88f3-deae21e0e9fd)
+
 # API設計
 
 ## リクエストライン
